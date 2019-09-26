@@ -3,6 +3,8 @@ import './style.css';
 import {wrapper} from './pages/summary';
 import {handler} from './pages/summary';
 
+const imgClose = require('../public/img/close.svg');
+
 class Popup {
 	constructor(container) {
 		this.container = container;
@@ -13,7 +15,7 @@ class Popup {
 
 	create() {
 		const stringHTML = `<div class="popup__container">
-				<img class="popup__close" src="../public/img/close.svg" alt="иконка закрытия окна">
+				<img class="popup__close" src=${imgClose} alt="иконка закрытия окна">
 				<h2 class="title"><span>Вход</span> <span class="title_thin">/</span> <span class="title_thin">Регистрация</span></h2>
 				<form name="login" class="form">
 					<label>Почта:</label>
@@ -41,7 +43,7 @@ class Popup {
 			document.querySelector('#btnLogin').textContent = document.forms.login.login.value;
 
 			document.querySelector('#btnLogin').addEventListener('mouseover', function() {
-				document.querySelector('#btnLogin').style.background = 'var(--maincolor) url("../public/img/selectarrow.svg") no-repeat 95% 50%';
+				document.querySelector('#btnLogin').style.background = 'var(--maincolor) url("./selectarrow.svg") no-repeat 95% 50%';
 			});
 			document.querySelector('#btnLogin').addEventListener('mouseout', function() {
 				document.querySelector('#btnLogin').style.background = btnStyle;
