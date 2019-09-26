@@ -1,0 +1,7 @@
+@import url('./_main/subtitle_main.css');
+
+.subtitle {
+	font-size: 22px;
+	line-height: 120%;
+	font-weight: normal;
+}

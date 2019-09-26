@@ -1,0 +1,29 @@
+.contmenu {
+	position: absolute;
+	top: 60px;
+	right: 0;
+	min-width: 160px;
+	padding: 27px 20px;
+	box-sizing: border-box;
+	background-color: #FFFFFF;
+	box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.07);
+	border-radius: 20px;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.contmenu a {
+	color: black;
+	text-decoration: none;
+	margin: 0 0 13px 0;
+}
+
+.contmenu a:last-of-type {
+	margin: 0;
+}
+
+.contmenu a:hover {
+	color: var(--accentcolor);
+}

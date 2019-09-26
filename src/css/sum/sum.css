@@ -1,0 +1,22 @@
+@import url('./__data/sum__data.css');
+@import url('./__photo/sum__photo.css');
+@import url('./__datatitle/sum__datatitle.css');
+@import url('./__motivation/sum__motivation.css');
+@import url('./__workmode/sum__workmode.css');
+@import url('./__main/sum__main.css');
+@import url('./__title/sum__title.css');
+@import url('./__subtitle/sum__subtitle.css');
+@import url('./__organisation/sum__organisatin.css');
+@import url('./__workplace/sum__workplace.css');
+@import url('./__period/sum__period.css');
+@import url('./__additional/sum__additional.css');
+@import url('./__salary/sum__salary.css');
+@import url('./__contacts/sum__contacts.css');
+
+.sum {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 82.5%;
+	font-size: 14px;
+}

@@ -1,0 +1,7 @@
+.section__button_listing {
+	margin: 0 30px 0 0;
+}
+
+.section__button_listing:last-of-type {
+	margin: 0;
+}

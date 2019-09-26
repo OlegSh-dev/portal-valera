@@ -1,0 +1,4 @@
+button.button_accent {
+	background-color: var(--accentcolor);
+	color: white;
+}

@@ -1,0 +1,9 @@
+@import url('./title_thin.css');
+
+.title {
+	max-width: 632px;
+	font-size: 46px;
+	line-height: 120%;
+	font-family: 'Geometria Bold', Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: bold;
+}

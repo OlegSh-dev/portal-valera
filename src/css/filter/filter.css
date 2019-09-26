@@ -1,0 +1,73 @@
+.filter {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-left: 30px;
+	width: 270px;
+}
+
+.filter label {
+	margin-bottom: 8px;
+}
+
+.filter select, .filter input {
+	position: relative;
+	-webkit-appearance: none;
+	background: #FFFFFF;
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+	border: none;
+	border-radius: 10px;
+	width: 264px;
+	margin: 0 0 20px 0;
+	padding: 12px 9px;
+	box-sizing: content-box;
+	outline: none;
+}
+
+.filter select {
+	background: url('../../../public/img/selectarrow.svg') no-repeat 95% 50%;
+	background-size: 12px;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.filter select:hover {
+	background: url('../../../public/img/selectarrowyellow.svg') no-repeat 95% 50%;
+	background-size: 12px;
+}
+
+.filter label[for="invalid"] {
+	position: relative;
+	padding-left: 10px;
+	display: flex;
+	align-items: baseline;
+	cursor: pointer;
+}
+
+.filter input[type="checkbox"] {
+	width: max-content;
+	margin: 0;
+	visibility: hidden;
+}
+
+.filter span::before {
+	content: '';
+	position: absolute;
+	top: 7px;
+	left: 0;
+	width: 22px;
+	height: 21px;
+	border-radius: 50%;
+	background-color: #fff;
+	border: 1px solid var(--accentcolor);
+}
+
+.filter input[type="checkbox"]:checked + span::before {
+	background-image: url('../../../public/img/checked.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: none;
+	width: 24px;
+	height: 23px;
+}

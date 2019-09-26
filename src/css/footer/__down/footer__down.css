@@ -1,0 +1,6 @@
+.footer__down {
+	max-width: 1440px;
+	display: flex;
+	justify-content: space-between;
+	font-family: "Geiometria Bold", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

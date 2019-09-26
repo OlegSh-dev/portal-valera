@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Geometria Regular';
+	src: url('Geometria.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geometria Light';
+	src: url('Geometria-Light.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Geometria Bold';
+	src: url('Geometria-Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

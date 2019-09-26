@@ -1,0 +1,5 @@
+.paginator__current {
+	background-color: var(--accentcolor);
+	color: white;
+	margin: 0 15px;
+}

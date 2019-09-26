@@ -1,0 +1,9 @@
+.sum__datatitle {
+	font-size: 16px;
+	font-family: "Geometria Bold", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 35px 0 20px 0;
+}
+
+.sum__datatitle:first-of-type {
+	margin-top: 25px;
+}

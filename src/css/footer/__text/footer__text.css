@@ -1,0 +1,18 @@
+.footer__text {
+	font-size: 16px;
+	line-height: 120%;
+	font-weight: normal;
+	margin-right: 65px;
+	text-decoration: none;
+	color: inherit;
+	outline: none;
+}
+
+.footer__text:last-of-type {
+	margin-right: 0;
+}
+
+.footer__text > a {
+	color: white;
+	font-family: inherit;
+}

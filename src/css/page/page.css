@@ -1,0 +1,32 @@
+@import url('./__header/page__header.css');
+@import url('./__section/page__section.css');
+@import url('./__footer/page__footer.css');
+
+
+body {
+	background: linear-gradient(90deg, #72B62B 0%, #57853C 100%);
+}
+
+p {
+	margin: 0;
+}
+
+::placeholder {
+	color: #E1E1E1;
+}
+
+a {
+	outline: none;
+}
+
+a:hover {
+	color: var(--hovercolor);
+}
+
+.page {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 66px 155px 23px 155px;
+	color: #ffffff;
+	font-family: 'Geometria Regular', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

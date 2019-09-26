@@ -1,0 +1,15 @@
+@import url('./__container/popup__container.css');
+@import url('./__close/popup__close.css');
+@import url('./__button/popup__button.css');
+
+.popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, .8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

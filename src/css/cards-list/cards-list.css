@@ -1,0 +1,5 @@
+@import url('./__card/card-list__card.css');
+
+.cards-list {
+	width: 855px;
+}

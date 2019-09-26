@@ -1,0 +1,7 @@
+.footer__menu_listing {
+	margin: 0 0 0 auto;
+}
+
+.footer__menu_listing path {
+	fill: var(--maincolor);
+}

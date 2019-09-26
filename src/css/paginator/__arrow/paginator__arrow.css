@@ -1,0 +1,6 @@
+.paginator__arrow {
+	background: #FFFFFF;
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.08);
+	color: var(--accentcolor);
+	margin: 0 20px;
+}

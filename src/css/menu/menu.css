@@ -1,0 +1,12 @@
+@import url('./__item/menu__item.css');
+
+.menu {
+	padding: 0;
+	width: 375px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	list-style: none;
+	font-size: 14px;
+	line-height: 18px;
+}

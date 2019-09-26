@@ -1,0 +1,7 @@
+.footer__up {
+	max-width: 1440px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+	font-family: "Geometria Bold", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

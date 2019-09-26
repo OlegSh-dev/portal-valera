@@ -1,0 +1,10 @@
+.list .arrow {
+	display: block;
+	width: 75px;
+	height: 10px;
+	background-image: url('../../../public/img/Arrow.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-top: 7px;
+	padding-left: 0;
+}

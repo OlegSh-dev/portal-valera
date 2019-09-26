@@ -1,0 +1,13 @@
+@import url('./__text/footer__text.css');
+@import url('./__menu/footer__menu.css');
+@import url('./__menu_size/footer__menu_size.css');
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.footer svg:hover > path {
+	fill: var(--hovercolor);
+}
