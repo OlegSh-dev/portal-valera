@@ -1,0 +1,8 @@
+.card.card_profile {
+	padding: 0 25px 0 0;
+}
+
+.card.card_profile div:first-of-type {
+	overflow: hidden;
+	border-radius: 20px;
+}

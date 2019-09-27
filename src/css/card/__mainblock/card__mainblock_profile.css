@@ -1,0 +1,8 @@
+.card__mainblock.card__mainblock_profile {
+	padding: 20px 0 20px 0;
+}
+
+.card__mainblock_profile h5 {
+	margin: 0 0 5px 0;
+	font-size: 16px;
+}

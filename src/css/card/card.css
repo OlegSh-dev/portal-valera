@@ -8,19 +8,21 @@
 @import url('./__date/card__date.css');
 @import url('./__image/card__image.css');
 @import url('./__organisation/card__organisation.css');
+@import url('./card_profile.css');
 
 .card {
 	position: relative;
 	background: #FFFFFF;
 	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
 	border-radius: 20px;
-	padding: 30px 0 25px 25px;
+	padding: 20px 0 20px 25px;
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	font-size: 14px;
 	line-height: 120%;
 	cursor: pointer;
+	overflow: hidden;
 }
 
 .card:hover {
@@ -29,4 +31,8 @@
 
 .card:hover .card__title {
 	color: var(--accentcolor);
+}
+
+.card:hover .card__image_profile {
+	transform: scale(1.1);
 }

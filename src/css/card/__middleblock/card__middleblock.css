@@ -1,3 +1,5 @@
+@import url('./card__middleblock_profile.css');
+
 .card__middleblock {
 	display: flex;
 	flex-direction: column;
