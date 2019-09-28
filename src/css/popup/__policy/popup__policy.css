@@ -1,0 +1,12 @@
+.popup__policy {
+	max-width: 291px;
+	font-family: "Geometria Regular", Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: #989898;
+}
+
+.form .popup__policy > a {
+	color: var(--accentcolor);
+	text-decoration: none;
+}
