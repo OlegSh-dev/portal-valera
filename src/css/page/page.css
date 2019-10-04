@@ -21,6 +21,7 @@ a {
 
 a:hover {
 	color: var(--hovercolor);
+	transition: all .3s ease-in-out;
 }
 
 .page {

@@ -10,4 +10,5 @@
 
 .footer svg:hover > path {
 	fill: var(--hovercolor);
+	transition: all .3s ease-in-out;
 }
