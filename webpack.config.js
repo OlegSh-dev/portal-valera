@@ -13,7 +13,7 @@ module.exports = {
 	},
 	output: {
 		path: path.resolve(__dirname, 'build'),
-		filename: '[name].[chunkhash].js',
+		filename: 'js/scripts-main.js',
 		publicPath: ''
 	},
 	module: {
@@ -24,12 +24,23 @@ module.exports = {
 				exclude: /node_modules/ // исключает папку node_modules
 			},
 			{
-				test: /\.(woff|woff2|ttf|otf|png|jpe?g|gif|svg)$/i,
+				test: /\.(woff|woff2|ttf|otf)$/i,
 				use: [
 				  {
 					loader: 'file-loader',
 					options: {
-						name: '[name].[ext]'
+						name: 'fonts/geometria/[name].[ext]'
+					}
+				  }
+				]
+			},
+			{
+				test: /\.(png|jpe?g|gif|svg)$/i,
+				use: [
+				  {
+					loader: 'file-loader',
+					options: {
+						name: 'images/[name].[ext]'
 					}
 				  },
 					{
@@ -44,7 +55,10 @@ module.exports = {
 			{
 				test: /\.css$/i,
 				use: [
-					(isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
+					(isDev ? 'style-loader' : {loader: MiniCssExtractPlugin.loader, options: {
+							publicPath: '../' // path to director where assets folder is located
+						}
+					}),
 					{
 						loader: 'css-loader',
 						options: { importLoaders: 1 }
@@ -56,7 +70,7 @@ module.exports = {
 	},
 	plugins: [
         new MiniCssExtractPlugin({
-            filename: 'style.[contenthash].css'
+            filename: 'css/styles-main.css'
 		}),
 		new OptimizeCssAssetsPlugin({
 			assetNameRegExp: /\.css$/gi,
