@@ -81,7 +81,7 @@ if (document.querySelector('#btnLogin')) {
 			document.forms.login.classList.remove('hidden');
 			addListenersToPopup();
 		} else {
-			document.querySelector('.contmenu').classList.toggle('show');
+			document.querySelector('.contmenu').classList.toggle('hidden');
 		}
 	});
 }

@@ -1,9 +1,10 @@
 .popup__close {
-	width: 35px;
-	height: 35px;
+	width: 45px;
+	height: 45px;
 	align-self: flex-end;
 	cursor: pointer;
 	background-image: url('../../../../public/img/close.svg');
+	background-color: #FBFBFB;
 	background-position: center;
 	background-repeat: no-repeat;
 	border: none;
