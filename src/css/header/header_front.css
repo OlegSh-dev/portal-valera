@@ -1,0 +1,7 @@
+.header_front {
+	align-items: flex-end;
+	background: none;
+	box-shadow: none;
+	padding-left: 0;
+	width: unset;
+}

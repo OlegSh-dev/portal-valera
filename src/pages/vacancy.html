@@ -8,17 +8,17 @@
 	<meta name="description" content="Валера – это платформа для людей, которые любят работу со смыслом.">
     <meta name="keywords" content="Валера, платформа, работа, люди">
     <meta name="author" content="insaim">
-	<link rel="stylesheet" href="css/styles-main.css?701637ea6a87c1a6357c">
+	<link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css%>">
 </head>
 <body>
 
 	<div class="page page_listing">
 
 		<header class="header page__header">
-			<a href="index.html"><img src="images/logo.svg" alt="логотип компании" class="logo header__logo"></a>
+			<a href="index.html"><img src="<%=require('../../public/img/logo.svg')%>" alt="логотип компании" class="logo header__logo"></a>
 			<nav class="header__menu">
 				<ul class="menu">
-					<li><a class="menu__item" href="#" tabindex="2">Резюме</a></li>
+					<li><a class="menu__item" href="summary.html" tabindex="2">Резюме</a></li>
 					<li><a class="menu__item" href="listing.html" tabindex="3">Вакансии</a></li>
 					<li><a class="menu__item" href="#" tabindex="4">Блог</a></li>
 					<li><a class="menu__item" href="#" tabindex="5">О проекте</a></li>
@@ -27,74 +27,59 @@
 			<button class="button header__button button_login button_listing" tabindex="1">Войти</button>
 		</header>
 
-		<main class="sum page__sum">
+		<main class="vac page__vac">
 
-			<div class="sum__data">
-				<img class="sum__photo" src="images/photo.jpg" alt="фотография соискателя">
-				<p class="sum__datatitle">Игорь Рождественский</p>
-				<p>Москва, 23 года</p>
-				<p class="sum__datatitle">Меня мотивирует</p>
+			<div class="info vac__info">
+				<h1 class="title">PR менеджер</h1>
+				<h4 class="info__title">Описание:</h4>
+				<p class="info__text info__text_long">Компания "Балет с 2 лет" не просто чтит и поддерживает вековые традиции русской балетной школы, но и приносит чувство единения друг с другом всем, кто с ней связан.</p>
+				<h4 class="info__title">Вознаграждение:</h4>
+				<p class="info__text">Карьерный рост, молодой колектив, обучение внутри компании</p>
+				<h4 class="info__title">Опыт работы:</h4>
+				<p class="info__text">От 1 года до 3 лет</p>
+				<h4 class="info__title">Обязанности:</h4>
 				<p class="sum__motivation">
-					<span>Путешествие</span>
-					<span>Любовь</span>
-					<span>Море</span>
+					<span>Встреча гостей, консультирование, продажи абонементов</span>
+					<span>Обеспечение комфортного пребывания мам и их детей в нашей школе</span>
+					<span>Текущие вопросы работы школы (расписания и тд)</span>
+					<span>Обеспечение бесперебойной работы школы, хозяйственные и организационные вопросы</span>
+					<span>Повышение продаж, отчеты в управляющую компанию</span>
+					<span>Взаимодействие с преподавателями</span>
+					<span>Работа в CRM системе</span>
+					<span>Общение с родителями и детьми</span>
 				</p>
-				<p class="sum__datatitle">Увлечения</p>
-				<p>Летом велосипед и палатки, зимой сноуборд и лыжи</p>
-				<p class="sum__datatitle">Условия работы</p>
-				<p class="sum__workmode">
-					<span>5/2</span>
-					<span>2/2</span>
-				</p>
-				<p class="sum__datatitle">Ключевые навыки</p>
+				<h4 class="info__title">Ключевые навыки:</h4>
 				<div>
 					<span class="tag card__tag">SMM</span>
 					<span class="tag card__tag">Instagram</span>
 					<span class="tag card__tag">Администратор</span>
 					<span class="tag card__tag">Честность</span>
 					<span class="tag card__tag">Открытость</span>
-					<span class="tag card__tag">Стрессоустойчивость</span>
+					<span class="tag card__tag">Целеустремленность</span>
 				</div>
-				<p class="sum__datatitle">Дополнительная информация</p>
-				<p>Имеется инвалидность</p>
+				<h4 class="info__title">Форма занятости:</h4>
+				<p class="sum__workmode">
+					<span>5/2</span>
+					<span>2/2</span>
+				</p>
+				<h4 class="info__title">График работы:</h4>
+				<p class="info__text">Полный день</p>
 			</div>
 
-			<div class="sum__main">
-				<h1 class="sum__title">PR менеджер</h1>
-				<p>Компания "Балет с 2 лет" не просто чтит и поддерживает вековые традиции русской балетной школы, 
-					но и приносит чувство единения друг с другом всем, кто с ней связан. Работа в "Балет с 2 лет" 
-					отличается от работы с любой другой компании. Здесь Вы создаете подлинные ценности и ориентиры для детей, 
-					меняя их жизнь.
-				</p>
-				<h4 class="sum__subtitle">Опыт работы</h4>
-				<div>
-					<p class="sum__workplace"><span class="sum__organisatin">Фонд Живой</span> <span class="sum__period">(Больше 5 лет)</span></p>
-					<p>Проектирование и разработка дизайна сайтов, пользовательских веб-интерфейсов, дизайн баннеров, е-mail рассылок.</p>
-				</div>
-				<div>
-					<p class="sum__workplace"><span class="sum__organisatin">Последний адресс</span> <span class="sum__period">(2 года)</span></p>
-					<p>Проектирование и разработка дизайна сайтов, пользовательских веб-интерфейсов, дизайн баннеров, е-mail рассылок.</p>
-				</div>
-				<div>
-					<p class="sum__workplace"><span class="sum__organisatin">Ночлежка</span> <span class="sum__period">(3 года)</span></p>
-					<p>Проектирование и разработка дизайна сайтов, пользовательских веб-интерфейсов, дизайн баннеров, е-mail рассылок.</p>
-				</div>
-				<h4 class="sum__subtitle">Мои сильные стороны</h4>
-				<p>Компания "Балет с 2 лет" не просто чтит и поддерживает вековые традиции русской балетной школы, 
-					но и приносит чувство единения друг с другом всем, кто с ней связан.
-				</p>
-				<h4 class="sum__subtitle">Мои слабые стороны</h4>
-				<p>Компания "Балет с 2 лет" не просто чтит и поддерживает вековые традиции русской балетной школы, 
-					но и приносит чувство единения друг с другом всем, кто с ней связан.
-				</p>
-
-			</div>
-
-			<div class="sum__additional">
-				<p class="sum__salary">35 000 руб.</p>
-				<div class="sum__contacts">
+			<div class="vac__additional">
+				<p class="vac__salary">35 000 руб.</p>
+				<div class="sum__contacts sum__contscts_size">
+					<img class="vac__image" src="<%=require('../../public/img/organisation3.png')%>" alt="логотип организации">
+					<h4 class="info__title">Все дети могут</h4>
+					<p class="info__text">Все, без исключения, дети могут - подарите им такую возможность!</p>
+					<h4 class="info__title">Ценности:</h4>
+					<p class="info__text">
+						<span>Дружественность</span>
+						<span>Открытость</span>
+						<span>Честнось</span>
+					</p>
 					<div id="wrapper">
-						<h5>Соц. сети:</h5>
+						<h4 class="info__title">Контакты:</h4>
 						<a href="Vk.com/igor222" target="_blank">Vk.com/igor222</a>
 						<a href="facebook.com/igor222" target="_blank">facebook.com/igor222</a>
 						<a href="Vk.com/igor222" target="_blank">Vk.com/igor222</a>
@@ -141,10 +126,3 @@
 				</div>
 			</div>
 		</footer>
-
-	</div>
-
-<script src="js/scripts-main.js?701637ea6a87c1a6357c"></script>
-
-</body>
-</html>

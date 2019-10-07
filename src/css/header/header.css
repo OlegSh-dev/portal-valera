@@ -6,5 +6,11 @@
 	position: relative;
 	display: flex;
 	justify-content: flex-start;
-	align-items: flex-end;
+	box-sizing: border-box;
+	border-radius: 60px;
+	background: linear-gradient(90deg, #72B62B 0%, #57853C 100%);
+	box-shadow: 0px 20px 24px rgba(113, 181, 41, 0.26);
+	align-items: center;
+	padding-left: 23px;
+	width: 82.5%;
 }

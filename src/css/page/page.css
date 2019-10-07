@@ -3,7 +3,7 @@
 @import url('./__footer/page__footer.css');
 
 
-body {
+.body_front {
 	background: linear-gradient(90deg, #72B62B 0%, #57853C 100%);
 }
 

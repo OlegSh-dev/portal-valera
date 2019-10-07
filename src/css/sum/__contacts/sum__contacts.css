@@ -14,7 +14,7 @@
 }
 
 #wrapper {
-	max-height: 65px;
+	max-height: 85px;
 	overflow: hidden;
 	background: linear-gradient(0deg, #FFFFFF 21.74%, rgba(255, 255, 255, 0) 104.98%);
 	transition: .5s ease-in-out;

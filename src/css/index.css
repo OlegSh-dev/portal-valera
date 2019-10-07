@@ -1,5 +1,6 @@
 @import url('./page/page.css');
 @import url('./header/header.css');
+@import url('./header/header_front.css');
 @import url('./logo/logo.css');
 @import url('./menu/menu.css');
 @import url('./button/button.css');
@@ -9,6 +10,7 @@
 @import url('./title/title.css');
 @import url('./subtitle/subtitle.css');
 @import url('./footer/footer.css');
+@import url('./footer/footer_front.css');
 @import url('./popup/popup.css');
 @import url('./form/form.css');
 @import url('./show/show.css');
