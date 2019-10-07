@@ -1,4 +1,15 @@
 .popup__close {
+	width: 35px;
+	height: 35px;
 	align-self: flex-end;
 	cursor: pointer;
+	background-image: url('../../../../public/img/close.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+	outline: none;
+}
+
+.popup__close:hover {
+	background-image: url('../../../../public/img/closehovered.svg');
 }

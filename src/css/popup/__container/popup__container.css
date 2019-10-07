@@ -9,6 +9,7 @@
 	border-radius: 20px;
 	padding: 20px 20px 40px 20px;
 	box-sizing: border-box;
+	color: black;
 }
 
 .popup__container .title {
