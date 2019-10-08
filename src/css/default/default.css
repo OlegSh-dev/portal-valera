@@ -1,0 +1,6 @@
+@import url('./__container/default__container.css');
+@import url('./__text/default__text.css');
+
+.default {
+	margin: 0;
+}
