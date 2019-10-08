@@ -43,11 +43,13 @@
 	display: flex;
 	align-items: baseline;
 	cursor: pointer;
+	user-select: none;
 }
 
 .filter input[type="checkbox"] {
 	width: max-content;
 	margin: 0;
+	margin-right: 9px;
 	visibility: hidden;
 }
 
