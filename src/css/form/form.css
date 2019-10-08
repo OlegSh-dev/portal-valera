@@ -9,6 +9,14 @@
 	line-height: 120%;
 }
 
+form[name="login"] {
+	margin-top: 30px;
+}
+
+form[name="login"] .button {
+	margin-top: 47px;
+}
+
 .form label {
 	align-self: flex-start;
 	margin-bottom: 8px;
