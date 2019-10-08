@@ -46,6 +46,13 @@ const addListenersToPopup = () => {
 
 	// закрытие попапа
 	popupClose.addEventListener('click', closePopup);
+
+	document.querySelector('.popup').addEventListener('click', (event) => {
+		if (!event.target.classList.contains('popup')) {
+			return;
+		}
+		closePopup();
+	});
 	
 	// переключение между входом и регистрацией
 	popupContainer.querySelector('#register').addEventListener('click', function() {
