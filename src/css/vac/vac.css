@@ -2,6 +2,7 @@
 @import url('./__additional/vac__additional.css');
 @import url('./__salary/vac__salary.css');
 @import url('./__image/vac__image.css');
+@import url('./__title/vac__title.css');
 
 .vac {
 	display: flex;

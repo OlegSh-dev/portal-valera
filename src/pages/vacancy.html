@@ -31,7 +31,7 @@
 			<section class="vac page__vac">
 
 				<div class="info vac__info">
-					<h1 class="title">PR менеджер</h1>
+					<h1 class="title vac__title">PR менеджер</h1>
 					<h4 class="info__title">Описание:</h4>
 					<p class="info__text info__text_long">Компания "Балет с 2 лет" не просто чтит и поддерживает вековые традиции русской балетной школы, но и приносит чувство единения друг с другом всем, кто с ней связан.</p>
 					<h4 class="info__title">Вознаграждение:</h4>
@@ -69,7 +69,7 @@
 
 				<div class="vac__additional">
 					<p class="vac__salary">35 000 руб.</p>
-					<div class="sum__contacts sum__contscts_size">
+					<div class="sum__contacts sum__contacts_size">
 						<img class="vac__image" src="<%=require('../../public/img/organisation3.png')%>" alt="логотип организации">
 						<h4 class="info__title">Все дети могут</h4>
 						<p class="info__text">Все, без исключения, дети могут - подарите им такую возможность!</p>
@@ -85,14 +85,91 @@
 							<a href="facebook.com/igor222" target="_blank">facebook.com/igor222</a>
 							<a href="Vk.com/igor222" target="_blank">Vk.com/igor222</a>
 							<a href="facebook.com/igor222" target="_blank">facebook.com/igor222</a>
-							<h5>Контакты:</h5>
 							<a href="tel:8(900)1112233"><span>8 (900) 111 - 22 - 33</span></a>
 							<a href="mailto:Igor222@gmai.com"><span>Igor222@gmai.com</span></a>
 						</div>
 						<button id="connect" class="button button_accent sum__contacts_position">Связаться</button>
 					</div>
 				</div>
-				
+			</section>
+
+			<section class="similar">
+				<div class="similar__container">
+					<h3 class="title title_h3">Похожие вакансии</h3>
+					<div class="cards-list">
+						<div class="card card-list__card">
+							<div class="card__mainblock">
+								<h4 class="card__title">PR менеджер</h4>
+								<p class="card__info">Публиковать новости и жизнь Фонда в социальные сети, отвечать на комментарии и быть в курсе всех дел</p>
+								<div class="card__tags">
+									<span class="tag card__tag">SMM</span>
+									<span class="tag card__tag">Instagram</span>
+									<span class="tag card__tag">Администратор</span>
+									<span class="tag card__tag">Честность</span>
+									<span class="tag card__tag">Открытость</span>
+									<span class="tag card__tag">Целеустремленность</span>
+								</div>
+								<p class="card__workmode">
+									<span>Удаленно</span>
+									<span>5/2</span>
+									<span>2/2</span>
+								</p>
+							</div>
+							<div class="card__middleblock">
+								<p class="card__salary">35 000 руб</p>
+								<p class="card__date">5 дней назад</p>
+							</div>
+							<img class="card__image" src="<%=require('../../public/img/organisation.png')%>" alt="логотип компании">
+							<div class="card__organisation">
+								<p class="card__name">
+									<span>НКО:</span> <br>
+									“Антон тут рядом”
+								</p>
+								<p class="card__address">
+									<span>Адрес:</span> <br>
+									Г. Новороссийск, <br>
+									ул. Видова, д.214
+								</p>
+							</div>
+						</div>
+
+						<div class="card card-list__card" tabindex="16">
+							<div class="card__mainblock">
+								<h4 class="card__title">PR менеджер</h4>
+								<p class="card__info">Публиковать новости и жизнь Фонда в социальные сети, отвечать на комментарии и быть в курсе всех дел</p>
+								<div class="card__tags">
+									<span class="tag card__tag">SMM</span>
+									<span class="tag card__tag">Instagram</span>
+									<span class="tag card__tag">Администратор</span>
+									<span class="tag card__tag">Честность</span>
+									<span class="tag card__tag">Открытость</span>
+									<span class="tag card__tag">Целеустремленность</span>
+								</div>
+								<p class="card__workmode">
+									<span>Удаленно</span>
+									<span>5/2</span>
+									<span>2/2</span>
+								</p>
+							</div>
+							<div class="card__middleblock">
+								<p class="card__salary">35 000 руб</p>
+								<p class="card__date">5 дней назад</p>
+							</div>
+							<img class="card__image" src="<%=require('../../public/img/organisation2.png')%>" alt="логотип компании">
+							<div class="card__organisation">
+								<p class="card__name">
+									<span>НКО:</span> <br>
+									“Антон тут рядом”
+								</p>
+								<p class="card__address">
+									<span>Адрес:</span> <br>
+									Г. Новороссийск, <br>
+									ул. Видова, д.214
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</section>
 		</main>
 
@@ -122,9 +199,15 @@
 					</ul>
 				</div>
 				<div class="footer__down">
-					<p class="footer__text">Дизайн и разработка — insaim</p>
+					<p class="footer__text">Дизайн и разработка — <a class="footer__text" href="https://insaim.ru" target="_blank">insaim</a></p>
 					<p class="footer__text">Связаться — <a href="mailto:rabota@uvalery.ru">rabota@uvalery.ru</a></p>
 					<a class="footer__text" href="#">Политика конфиденциальности</a>
 				</div>
 			</div>
 		</footer>
+	</div>
+
+<script src="<%=htmlWebpackPlugin.files.chunks.main.entry%>"></script>
+
+</body>
+</html>
