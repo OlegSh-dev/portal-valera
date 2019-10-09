@@ -83,7 +83,7 @@ if (document.forms.login) {
 
 if (document.querySelector('#btnLogin')) {
 	document.querySelector('#btnLogin').addEventListener('click', function() {
-		if (document.querySelector('#btnLogin').dataset.login) {
+		if (+document.querySelector('#btnLogin').dataset.login) {
 			document.querySelector('.popup').classList.remove('hidden');
 			document.forms.login.classList.remove('hidden');
 			addListenersToPopup();
