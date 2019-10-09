@@ -26,7 +26,7 @@ const closePopup = () => {
 	document.forms.register.reset();
 }
 
-const makeFakeLogin = () => {
+const makeLogin = () => {
 	const btnLogin = document.querySelector('#btnLogin');
 	const btnStyle = btnLogin.style.backgroundColor;
 
@@ -73,14 +73,14 @@ const addListenersToPopup = () => {
 }
 
 // имитация залогинивания на сайте по сабмиту формы логина
-if (document.forms.login) {
-	document.forms.login.addEventListener('submit', function(event) {
-		event.preventDefault();
-		makeFakeLogin();
-		document.querySelector('#btnLogin').dataset.login = '1';
-		closePopup();
-	});
-}
+// if (document.forms.login) {
+// 	document.forms.login.addEventListener('submit', function(event) {
+// 		event.preventDefault();
+// 		makeLogin();
+// 		document.querySelector('#btnLogin').dataset.login = '1';
+// 		closePopup();
+// 	});
+// }
 
 if (document.querySelector('#btnLogin')) {
 	document.querySelector('#btnLogin').addEventListener('click', function() {
