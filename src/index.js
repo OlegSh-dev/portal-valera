@@ -77,13 +77,14 @@ if (document.forms.login) {
 	document.forms.login.addEventListener('submit', function(event) {
 		event.preventDefault();
 		makeFakeLogin();
+		document.querySelector('#btnLogin').dataset.login = '1';
 		closePopup();
 	});
 }
 
 if (document.querySelector('#btnLogin')) {
 	document.querySelector('#btnLogin').addEventListener('click', function() {
-		if (+document.querySelector('#btnLogin').dataset.login) {
+		if (document.querySelector('#btnLogin').dataset.login === '0') {
 			document.querySelector('.popup').classList.remove('hidden');
 			document.forms.login.classList.remove('hidden');
 			addListenersToPopup();
