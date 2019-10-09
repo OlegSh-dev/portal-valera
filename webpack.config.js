@@ -110,6 +110,12 @@ module.exports = {
 			template: './src/pages/default.html', // откуда брать образец для сравнения с текущим видом проекта
 			filename: 'default.html' // имя выходного файла, то есть того, что окажется в папке dist после сборки
 		}),
+		new HtmlWebpackPlugin({
+			inject: false, // стили НЕ нужно прописывать внутри тегов
+			hash: true, // для страницы нужно считать хеш
+			template: './src/pages/organistation.html', // откуда брать образец для сравнения с текущим видом проекта
+			filename: 'organistation.html' // имя выходного файла, то есть того, что окажется в папке dist после сборки
+		}),
 		new WebpackMd5Hash(),
 		new webpack.DefinePlugin({
 			'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
