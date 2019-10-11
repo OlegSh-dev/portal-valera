@@ -7,3 +7,9 @@
 	font-family: 'Geometria Bold', Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-weight: bold;
 }
+
+@media screen and (max-width: 1137px) {
+	.title {
+		font-size: 36px;
+	}
+}

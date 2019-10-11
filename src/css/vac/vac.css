@@ -5,6 +5,7 @@
 @import url('./__title/vac__title.css');
 
 .vac {
+	max-width: 80%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 }

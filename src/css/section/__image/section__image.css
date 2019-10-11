@@ -1,3 +1,15 @@
 .section__image {
 	margin-left: 35px;
 }
+
+@media screen and (max-width: 1214px) {
+	.section__image {
+		width: 350px;
+	}
+}
+
+@media screen and (max-width: 1097px) {
+	.section__image {
+		width: 320px;
+	}
+}

@@ -2,6 +2,7 @@
 	width: 264px;
 	max-height: unset;
 	object-fit: cover;
+	object-position: right;
 	height: 100%;
 	transition: all .5s ease-in-out;
 }

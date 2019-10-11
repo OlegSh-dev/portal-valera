@@ -3,3 +3,9 @@
 .cards-list {
 	width: 855px;
 }
+
+@media screen and (max-width: 1199px) {
+	.cards-list {
+		width: unset;
+	}
+}

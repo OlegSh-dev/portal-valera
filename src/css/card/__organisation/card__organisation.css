@@ -26,3 +26,39 @@
 .card:hover .card__organisation {
 	opacity: 1;
 }
+
+@media screen and (max-width: 1270px) {
+	.card__organisation {
+		width: 35%;
+	}
+}
+
+@media screen and (max-width: 1250px) {
+	.card__organisation {
+		width: 36%;
+	}
+}
+
+@media screen and (max-width: 1234px) {
+	.card__organisation {
+		width: 38%;
+	}
+}
+
+@media screen and (max-width: 1214px) {
+	.card__organisation {
+		width: 39%;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.card__organisation {
+		width: 30%;
+	}
+}
+
+@media screen and (max-width: 1170px) {
+	.card__organisation {
+		width: 33%;
+	}
+}

@@ -73,3 +73,15 @@
 	width: 24px;
 	height: 23px;
 }
+
+@media screen and (max-width: 1199px) {
+	.filter {
+		align-self: center;
+		width: 70%;
+		margin-bottom: 15px;
+	}
+
+	.filter select, .filter input {
+		width: 90%;
+	}
+}

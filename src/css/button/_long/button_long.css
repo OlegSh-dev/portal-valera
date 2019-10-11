@@ -2,3 +2,27 @@ button.button_long {
 	width: 260px;
 	color: #6AA730;
 }
+
+@media screen and (max-width: 1336px) {
+	button.button_long {
+		width: 230px;
+	}
+}
+
+@media screen and (max-width: 1275px) {
+	button.button_long {
+		width: 219px;
+	}
+}
+
+@media screen and (max-width: 1137px) {
+	.button.button_long {
+		width: 199px;
+	}
+}
+
+@media screen and (max-width: 1067px) {
+	.button.button_long {
+		width: 177px;
+	}
+}

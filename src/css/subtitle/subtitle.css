@@ -5,3 +5,9 @@
 	line-height: 120%;
 	font-weight: normal;
 }
+
+@media screen and (max-width: 1137px) {
+	.subtitle {
+		font-size: 18px;
+	}
+}

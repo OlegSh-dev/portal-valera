@@ -30,3 +30,24 @@
 	fill: black;
 	transition: all .3s ease-in-out;
 }
+
+@media screen and (max-width: 1137px) {
+	.button {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+
+@media screen and (max-width: 1067px) {
+	.button {
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 1296px) {
+	.button svg {
+		display: none;
+	}
+}

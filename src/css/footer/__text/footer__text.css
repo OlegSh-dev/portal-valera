@@ -16,3 +16,15 @@
 	color: white;
 	font-family: inherit;
 }
+
+@media screen and (max-width: 1254px) {
+	.footer__text {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 1139px) {
+	.footer__text {
+		width: 170px;
+	}
+}

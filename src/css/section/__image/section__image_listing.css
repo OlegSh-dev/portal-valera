@@ -1,3 +1,15 @@
 .section__image_listing {
 	margin-top: 70px;
 }
+
+@media screen and (max-width: 1252px) {
+	.section__image_listing {
+		width: 394px;
+	}
+}
+
+@media screen and (max-width: 1155px) {
+	.section__image_listing {
+		width: 370px;
+	}
+}

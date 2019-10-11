@@ -5,3 +5,9 @@
 .footer__menu_listing path {
 	fill: var(--maincolor);
 }
+
+@media screen and (max-width: 1254px) {
+	.footer__menu_listing {
+		margin: 0;
+	}
+}

@@ -1,5 +1,6 @@
 .sum__photo {
+	width: 100%;
+	height: auto;
 	border-radius: 20px;
-	object-fit: scale-down;
 	margin: 0;
 }

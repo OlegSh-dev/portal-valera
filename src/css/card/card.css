@@ -8,6 +8,7 @@
 @import url('./__date/card__date.css');
 @import url('./__image/card__image.css');
 @import url('./__organisation/card__organisation.css');
+@import url('./card__organisation_size.css');
 @import url('./card_profile.css');
 
 .card {
@@ -35,4 +36,10 @@
 
 .card:hover .card__image_profile {
 	transform: scale(1.1);
+}
+
+@media screen and (max-width: 1270px) {
+	.card {
+		padding-right: 25px;
+	}
 }

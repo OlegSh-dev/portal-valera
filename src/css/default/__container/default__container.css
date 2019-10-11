@@ -1,4 +1,5 @@
 .default__container {
+	width: 80%;
 	max-width: 1150px;
 	margin: 70px auto 70px;
 }
