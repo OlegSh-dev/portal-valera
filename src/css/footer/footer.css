@@ -19,3 +19,10 @@
 	fill: var(--hovercolor);
 	transition: all .3s ease-in-out;
 }
+
+@media screen and (max-width: 900px) {
+	.footer {
+		padding-right: 60px;
+		padding-left: 60px;
+	}
+}

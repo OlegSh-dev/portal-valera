@@ -26,3 +26,9 @@ button.button_long {
 		width: 177px;
 	}
 }
+
+@media screen and (max-width: 1023px) {
+	.button.button_long {
+		width: 260px;
+	}
+}

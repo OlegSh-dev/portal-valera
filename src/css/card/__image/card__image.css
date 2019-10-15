@@ -7,3 +7,9 @@
 	border-radius: 20px;
 	object-fit: scale-down;
 }
+
+@media screen and (max-width: 899px) {
+	.card__image {
+		display: none;
+	}
+}

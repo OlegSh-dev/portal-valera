@@ -31,3 +31,10 @@ a:hover {
 	color: #ffffff;
 	font-family: 'Geometria Regular', Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+@media screen and (max-width: 888px) {
+	.page {
+		padding-left: 95px;
+		padding-right: 95px;
+	}
+}

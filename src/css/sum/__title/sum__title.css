@@ -4,3 +4,9 @@
 	font-family: "Geometria Bold", Arial, "Helvetica Neue", Helvetica, sans-serif;
 	margin-bottom: 17px;
 }
+
+@media screen and (max-width: 866px) {
+	.sum__title {
+		font-size: 36px;
+	}
+}

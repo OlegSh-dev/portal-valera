@@ -11,3 +11,9 @@
 		margin: 0;
 	}
 }
+
+@media screen and (max-width: 1023px) {
+	.section__button:first-of-type {
+		margin-bottom: 20px;
+	}
+}

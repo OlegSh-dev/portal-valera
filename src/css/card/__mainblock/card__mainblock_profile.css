@@ -12,3 +12,9 @@
 		padding-left: 10px;
 	}
 }
+
+@media screen and (max-width: 899px) {
+	.card__mainblock.card__mainblock_profile {
+		padding-left: 25px;
+	}
+}

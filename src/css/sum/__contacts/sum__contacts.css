@@ -20,8 +20,6 @@
 	transition: .5s ease-in-out;
 }
 
-
-
 .sum__contacts h5 {
 	font-size: 16px;
 	font-family: "Geometria Bold", Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -47,4 +45,17 @@
 
 .sum__contacts a > span {
 	font-size: 16px;
+}
+
+@media screen and (max-width: 900px) {
+	.sum__contacts {
+		width: 175px;
+		font-size: 10px;
+		padding: 25px;
+		margin-left: auto;
+	}
+
+	.sum__contacts a > span {
+		font-size: 12px;
+	}
 }

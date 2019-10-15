@@ -13,3 +13,15 @@
 		width: 370px;
 	}
 }
+
+@media screen and (max-width: 1023px) {
+	.section__image_listing {
+		width: 280px;
+	}
+}
+
+@media screen and (max-width: 849px) {
+	.section__image_listing {
+		width: 250px;
+	}
+}

@@ -3,3 +3,15 @@
 	padding: 0 150px;
 	justify-content: center;
 }
+
+@media screen and (max-width: 933px) {
+	.section_listing {
+		padding: 0 108px;
+	}
+}
+
+@media screen and (max-width: 819px) {
+	.section_listing {
+		padding: 0 82px;
+	}
+}

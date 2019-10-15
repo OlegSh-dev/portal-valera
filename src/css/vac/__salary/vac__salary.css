@@ -5,3 +5,9 @@
 	font-weight: bold;
 	text-align: right;
 }
+
+@media screen and (max-width: 899px) {
+	.vac__salary {
+		font-size: 24px;
+	}
+}

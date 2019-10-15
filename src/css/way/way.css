@@ -2,3 +2,16 @@
 	max-width: 1150px;
 	padding: 55px 150px 80px 150px;
 }
+
+@media screen and (max-width: 933px) {
+	.way {
+		padding-left: 108px;
+		padding-right: 108px;
+	}
+}
+
+@media screen and (max-width: 819px) {
+	.way {
+		padding: 55px 75px 50px;
+	}
+}

@@ -3,3 +3,9 @@
 .card__mainblock {
 	max-width: 53%;
 }
+
+@media screen and (max-width: 899px) {
+	.card__mainblock {
+		max-width: 69%;
+	}
+}
