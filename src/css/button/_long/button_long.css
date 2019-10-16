@@ -32,3 +32,9 @@ button.button_long {
 		width: 260px;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.button.button_long {
+		align-self: center;
+	}
+}

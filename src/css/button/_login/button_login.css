@@ -2,3 +2,22 @@
 	color: #5B8C3A;
 	background-color: #EBFFBF;
 }
+
+@media screen and (max-width: 950px) {
+	.button_login {
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.button_login {
+		color: transparent;
+		font-size: 1px;
+		width: 40px;
+		height: 40px;
+		background-image: url('../../../../public/img/menu.svg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: auto;
+	}
+}

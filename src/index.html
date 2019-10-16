@@ -24,12 +24,23 @@
 				</ul>
 			</nav>
 			<button id="btnLogin" class="button header__button button_login" data-login="0" tabindex="1">Войти</button>
-			<!-- Отдать для авторизованного пользователя -->
+			<!-- 1 Отдать для авторизованного пользователя или для разрешения ниже 769 -->
 			<div class="contmenu hidden">
+				<!-- 2 Отдавать на разрешении ниже 769 -->
+				<nav class="contmenu__menu hidden">
+					<ul>
+						<li><a href="summary.html" tabindex="4">Резюме</a></li>
+						<li><a href="listing.html" tabindex="5">Вакансии</a></li>
+						<li><a href="vacancy.html" tabindex="6">Блог</a></li>
+						<li><a href="default.html" tabindex="7">О проекте</a></li>
+					</ul>
+				</nav>
+				<!-- 2 -->
 				<a href="#">Профиль</a>
 				<a href="#" id="logout">Выход</a>
+				<a class="hidden" href="#" id="login">Вход</a>
 			</div>
-			<!--  -->
+			<!-- 1 -->
 		</header>
 
 		<main>
@@ -47,7 +58,7 @@
 		<div class="popup hidden">
 			<div class="popup__container">
 				<button class="popup__close"></button>
-				<h2 class="title popup__title"><span id="login">Вход</span> <span class="title_thin">/</span> <span id="register" class="title_thin">Регистрация</span></h2>
+				<h2 class="title popup__title"><span id="enter">Вход</span> <span class="title_thin">/</span> <span id="register" class="title_thin">Регистрация</span></h2>
 				<form name="login" class="form hidden">
 					<label>Почта:</label>
 					<input type="email" name="login" placeholder="user@mail" required>
@@ -78,8 +89,8 @@
 		</div>
 
 		<footer class="footer footer_front page__footer">
-			<p class="footer__text">Дизайн и разработка — <a class="footer__text" href="https://insaim.ru" target="_blank">insaim</a></p>
-			<p class="footer__text">Связаться — <a href="mailto:rabota@uvalery.ru">rabota@uvalery.ru</a></p>
+			<p class="footer__text footer__text_copyright">Дизайн и разработка — <a class="footer__text" href="https://insaim.ru" target="_blank">insaim</a></p>
+			<p class="footer__text footer__text_email">Связаться — <a href="mailto:rabota@uvalery.ru">rabota@uvalery.ru</a></p>
 			<ul class="menu footer__menu footer__menu_size">
 					<li><a href="#" target="_blank">
 						<svg width="30" height="17" xmlns="http://www.w3.org/2000/svg">

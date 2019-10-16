@@ -5,3 +5,13 @@
 	box-shadow: none;
 	font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+	.button_listing {
+		margin-right: 19px;
+		background-color: #EBFFBF;
+		border: none;
+		color: transparent;
+    	font-size: 1px;
+	}
+}

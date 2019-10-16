@@ -5,3 +5,10 @@
 	margin-bottom: 80px;
 	font-family: "Geometria Bold", Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+	.footer__up {
+		flex-direction: column;
+    	margin-bottom: 20px;
+	}
+}

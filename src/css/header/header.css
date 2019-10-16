@@ -14,3 +14,15 @@
 	padding-left: 23px;
 	width: 82.5%;
 }
+
+@media screen and (max-width: 768px) {
+	.header {
+		height: 53px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.header {
+		width: 90%;
+	}
+}

@@ -1,0 +1,10 @@
+.contmenu__menu ul {
+	padding: 0;
+    border-bottom: 1px solid var(--accentcolor);
+    margin-top: 0px;
+    width: 115px;
+}
+
+.contmenu__menu ul li {
+	margin-bottom: 13px;
+}

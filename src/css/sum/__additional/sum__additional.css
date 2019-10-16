@@ -2,3 +2,23 @@
 	width: 262px;
 	margin: 0 0 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+	.sum__additional {
+		margin: 0;
+    	margin-top: 50px;
+    	width: 60%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.sum__additional {
+    	width: 90%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.sum__additional {
+    	width: 100%;
+	}
+}

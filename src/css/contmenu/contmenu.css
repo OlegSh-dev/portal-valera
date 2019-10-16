@@ -1,3 +1,5 @@
+@import url('./__menu/contmenu__menu.css');
+
 .contmenu {
 	position: absolute;
 	top: 60px;

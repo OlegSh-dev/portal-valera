@@ -4,3 +4,9 @@
 	justify-content: space-between;
 	font-family: "Geometria Regular", Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+@media screen and (max-width:768px) {
+	.footer__down {
+		flex-direction: column;
+	}
+}

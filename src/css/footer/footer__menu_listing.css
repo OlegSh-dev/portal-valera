@@ -11,3 +11,10 @@
 		margin: 0;
 	}
 }
+
+@media screen and (max-width:768px) {
+	.footer__menu_listing {
+		align-self: center;
+    	margin-top: 60px;
+	}
+}

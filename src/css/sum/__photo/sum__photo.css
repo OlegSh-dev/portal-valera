@@ -4,3 +4,16 @@
 	border-radius: 20px;
 	margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+	.sum__photo {
+		max-width: 60%;
+    	align-self: center;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.sum__photo {
+		max-width: 100%;
+	}
+}

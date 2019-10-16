@@ -2,3 +2,11 @@
 	width: 49%;
 	margin-right: 35px;
 }
+
+@media screen and (max-width: 768px) {
+	.sum__main {
+		margin-top: 70px;
+    	margin-right: 0;
+    	width: 100%;
+	}
+}

@@ -7,3 +7,11 @@
 		margin: 130px 0 0 0;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.section__container {
+		display: flex;
+    	flex-direction: column;
+    	margin-top: 72px;
+	}
+}

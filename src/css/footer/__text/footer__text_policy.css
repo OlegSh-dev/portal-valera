@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+	.footer .footer__text_policy {
+		font-size: 12px;
+		margin-top: 40px;
+	}
+}

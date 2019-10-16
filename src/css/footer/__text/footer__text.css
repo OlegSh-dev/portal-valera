@@ -1,3 +1,8 @@
+@import url('./footer__text_copyright.css');
+@import url('./footer__text_email.css');
+@import url('./footer__text_hidden.css');
+@import url('./footer__text_policy.css');
+
 .footer__text {
 	font-size: 16px;
 	line-height: 120%;
@@ -26,5 +31,12 @@
 @media screen and (max-width: 1139px) {
 	.footer__text {
 		width: 170px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.footer__text {
+		width: auto;
+		margin-top: 20px;
 	}
 }

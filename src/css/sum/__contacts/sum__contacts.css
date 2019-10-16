@@ -11,6 +11,7 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	margin-top: 30px;
+	overflow: hidden;
 }
 
 #wrapper {
@@ -57,5 +58,17 @@
 
 	.sum__contacts a > span {
 		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.sum__contacts {
+		margin: 0 auto;
+    	width: 100%;
+    	font-size: 14px;
+	}
+
+	.sum__contacts a > span {
+		font-size: 16px;
 	}
 }

@@ -10,3 +10,18 @@
 		font-size: 36px;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.sum__title {
+		position: absolute;
+    	top: 185px;
+    	left: 14.7%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.sum__title {
+		font-size: 26px;
+		left: 5.7%;
+	}
+}

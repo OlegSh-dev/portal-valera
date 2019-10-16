@@ -12,6 +12,8 @@
 @import url('./__additional/sum__additional.css');
 @import url('./__salary/sum__salary.css');
 @import url('./__contacts/sum__contacts.css');
+@import url('./__text/sum__text.css');
+@import url('./__tags/sum__tags.css');
 
 .sum {
 	max-width: 1440px;
@@ -20,4 +22,18 @@
 	align-items: flex-start;
 	width: 82.5%;
 	font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+	.sum {
+		flex-direction: column;
+    	align-items: center;
+    	width: 70%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.sum {
+    	width: 90%;
+	}
 }

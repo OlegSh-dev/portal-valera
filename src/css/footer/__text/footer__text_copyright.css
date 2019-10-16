@@ -1,0 +1,8 @@
+@media screen and (max-width: 768px) {
+	.footer .footer__text_copyright {
+		order: 3;
+		margin-top: 75px;
+		font-family: "Geometria Light", Arial, "Helvetica Neue", Helvetica, sans-serif;
+		font-weight: 300;
+	}
+}

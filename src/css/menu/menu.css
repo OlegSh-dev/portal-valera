@@ -11,8 +11,8 @@
 	line-height: 18px;
 }
 
-@media screen and (max-width: 914px) {
+@media screen and (max-width: 1020px) {
 	.menu {
-		width: 330px;
+		width: 295px;
 	}
 }

@@ -18,3 +18,9 @@
 	color: var(--accentcolor);
 	font-family: "Geometria Bold", Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+@media screen and (max-width: 768px) {
+	.sum__motivation {
+		display: none;
+	}
+}
