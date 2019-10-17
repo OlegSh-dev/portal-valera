@@ -43,3 +43,9 @@
 		padding-right: 25px;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.card {
+		flex-direction: column-reverse;
+	}
+}

@@ -11,3 +11,15 @@
 		margin: 0;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.section__button_listing {
+		width: 260px;
+		height: 55px;
+    	align-self: center;
+	}
+
+	.section__button_listing:last-of-type {
+		margin-top: 25px;
+	}
+}

@@ -85,3 +85,18 @@
 		width: 90%;
 	}
 }
+
+@media screen and (max-width: 608px) {
+	.filter {
+		width: 90%;
+		margin-left: 0;
+	}
+
+	.filter select {
+		width: 97%;
+	}
+
+	.filter input {
+		width: 97%;
+	}
+}

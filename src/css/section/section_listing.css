@@ -15,3 +15,15 @@
 		padding: 0 82px;
 	}
 }
+
+@media screen and (max-width: 518px) {
+	.section_listing {
+		padding: 0 50px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.section_listing {
+		padding: 0 20px;
+	}
+}

@@ -1,3 +1,5 @@
+@import url('../__address/card__address.css');
+
 .card__organisation {
 	opacity: 0;
 	transition: opacity .5s ease-in-out;
@@ -67,5 +69,16 @@
 	.card__organisation {
 		padding-right: 20px;
 		padding-left: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.card__organisation {
+		opacity: 1;
+		position: static;
+		order: 1;
+		width: 100%;
+		padding: 50px 0 0 0;
+		border-left: none;
 	}
 }

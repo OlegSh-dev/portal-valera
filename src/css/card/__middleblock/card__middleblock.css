@@ -7,3 +7,12 @@
 	align-items: flex-start;
 	min-width: max-content;
 }
+
+@media screen and (max-width:768px) {
+	.card__middleblock {
+		order: 3;
+		flex-direction: row;
+		align-items: flex-end;
+		margin-bottom: 10px;
+	}
+}

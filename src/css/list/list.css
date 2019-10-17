@@ -38,3 +38,37 @@
 	color: var(--accentcolor);
 	margin-top: 5px;
 }
+
+@media screen and (max-width: 768px) {
+	.list {
+		flex-wrap: wrap;
+	}
+
+	.list li {
+		margin-top: 20px;
+	}
+
+	.list li + .arrow {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 648px) {
+	.list {
+		align-items: center;
+    	flex-direction: column;
+	}
+
+	.list li {
+		margin-top: 30px;
+		width: 190px;
+	}
+
+	.list li + .arrow {
+		display: none;
+	}
+
+	.list li:not(.arrow):last-of-type::before {
+		left: 5px;
+	}
+}
