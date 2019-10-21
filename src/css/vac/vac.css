@@ -9,3 +9,18 @@
 	display: flex;
 	justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+	.vac {
+		flex-direction: column;
+	    width: 71%;
+    	margin-top: 65px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.vac {
+		width: 90%;
+		max-width: 90%;
+	}
+}

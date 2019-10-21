@@ -2,3 +2,10 @@
 	max-width: 362px;
 	margin-top: 10px;
 }
+
+@media screen and (max-width: 768px) {
+	.vac__additional {
+		align-self: center;
+    	margin-top: 60px;
+	}
+}

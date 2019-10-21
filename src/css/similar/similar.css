@@ -1,6 +1,6 @@
 @import url('./__container/similar__container.css');
 
 .similar {
-	background-color: #FBFBFB;
+	background-color: var(--bgcolor);
 	padding: 60px 0 80px 0;
 }

@@ -6,3 +6,9 @@
 	margin-top: 40px;
 	margin-bottom: 10px;
 }
+
+@media screen and (max-width: 425px) {
+	.info__title {
+		font-size: 16px;
+	}
+}
