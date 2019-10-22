@@ -3,3 +3,9 @@
 	max-width: 1150px;
 	margin: 0 auto;
 }
+
+@media screen and (max-width: 425px) {
+	.similar__container {
+		width: 90%;
+	}
+}
