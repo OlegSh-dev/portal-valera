@@ -93,14 +93,29 @@ const toggleContmenu = () => {
 	document.querySelector('.contmenu').classList.toggle('hidden');
 }
 
+
+
+
+
 if (document.querySelector('#btnLogin')) {
 	document.querySelector('#btnLogin').addEventListener('click', function() {
+		// для неавторизованного пользователя
 		if (document.querySelector('#btnLogin').dataset.login === '0' && document.body.clientWidth > 768) {
 			document.querySelector('.popup').classList.remove('hidden');
 			document.forms.login.classList.remove('hidden');
 			addListenersToPopup();
 		} else if (document.querySelector('#btnLogin').dataset.login === '0' && document.body.clientWidth <= 768) {
 			toggleContmenu();
+		}
+
+		// для авторизованного пользователя
+		if (document.querySelector('#btnLogin').dataset.login === '1' && document.body.clientWidth > 768) {
+			document.querySelector('.contmenu').classList.toggle('hidden');
+		} else if (document.querySelector('#btnLogin').dataset.login === '1' && document.body.clientWidth <= 768) {
+			toggleContmenu();
+			document.querySelector('#profile').classList.toggle('hidden');
+			document.querySelector('#login').classList.toggle('hidden');
+			document.querySelector('#logout').classList.toggle('hidden');
 		}
 	});
 }

@@ -26,6 +26,10 @@
 	margin: 0;
 }
 
+.contmenu #logout {
+	margin: 0;
+}
+
 .contmenu a:hover {
 	color: var(--accentcolor);
 }
